@@ -1,0 +1,20 @@
+{
+  "projectName": "potentialfiesta",
+  "projectPath": "/mnt/c/github-repos/potential-fiesta",
+  "defaultEditor": "code",
+  "frontendHandler": {
+    "javascript": "/home/willingram/.nvm/versions/node/v10.12.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+  },
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "public",
+      "BuildCommand": "echo noop",
+      "StartCommand": "gatsby develop"
+    }
+  },
+  "providers": {
+    "awscloudformation": "/home/willingram/.nvm/versions/node/v10.12.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+  }
+}
